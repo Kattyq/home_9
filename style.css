@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Monsterrat;
+}
+@font-face {
+    font-family: Monsterrat;
+    src: url(Monsterrat/Montserrat-Regular.ttf);
+}
+.MainBlock {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 600px;
+    background-color: #e2f5bf;
+    border: 4px solid #2a5530;
+    border-radius: 14px;
+}
+.name {
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: #0d4615;
+    color: #def5ee;
+}
+.block {
+    display: flex;
+    justify-content: center; 
+}
+#text {
+    font-size: 20px;
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+    border: 1px solid#0d4615;
+    border-radius: 5px;
+    color: #0d5641;
+}
+.container input::placeholder {
+    color: #0d5641;
+}
+.list li {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0d5641;
+    width: 500px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #0d5641;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+}
+.list li p {
+    width: 400px;
+}
+.inputRedactor {
+    width: 400px;
+}
+.checked ~ p {
+    text-decoration: line-through;
+}
+.fa-pencil,
+.fa-save,
+.fa-trash-o {
+    font-size: 20px;
+    padding: 5px;
+}
+.ButtonBlock {
+    display: flex;
+    justify-content: center;
+}
+.saveButton,
+.deleteButton {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #0d4615;
+    color: #def5ee;
+    border-radius: 8px;
+    margin: 15px;
+}
+.red {
+    background-color: red;
+}
